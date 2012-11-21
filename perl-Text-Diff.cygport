@@ -1,0 +1,13 @@
+CPAN_AUTHOR=ovid
+inherit perl
+
+NAME="perl-Text-Diff"
+VERSION=1.41
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl implementation of diff for text"
+DESCRIPTION="Text::Diff provides a basic set of services akin to the GNU diff
+utility. It is not anywhere near as feature complete as GNU diff, but it is
+better integrated with Perl and available on all platforms. It is often faster
+than shelling out to a system's diff executable for small files, and generally
+slower on larger files."
